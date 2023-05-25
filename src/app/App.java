@@ -20,7 +20,7 @@ public class App {
 		try {
 			personagem = new Personagem("images/enfermeira_sprite.png", 0, 4, 4, 68, 72);
 		} catch (IOException e) {
-			Mensagem.mensagem("Imagem do personagem n„o enconrada!");
+			Mensagem.mensagem("Imagem do personagem n√£o encontrada!");
 		}
 		
 		new Controle(camadaPiso, camadaColisao, camadaTopo, personagem);
